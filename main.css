@@ -1,0 +1,12 @@
+	header {
+		color: red;
+	}
+	section{
+		font-weight:bold;
+	}
+	.section-two{
+		font-style: italic;
+	}
+	footer{
+		background: yellow;
+	}

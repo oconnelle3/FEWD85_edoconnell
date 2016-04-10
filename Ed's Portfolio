@@ -5,7 +5,7 @@
   <title>Document</title>
 </head>
 <body style="background-color: #FFE;">
-<header><a rel="Eds About Me.html">About Me | Portfolio</header>
+<header><a rel="AboutMe.html">About Me | Portfolio</header>
 <h1>Edmond O'Connell</h1>
   <h2><section>Experience</h2>
     <p>Current student of the General Assembly Front End Development class with an interest in learning HTML, CSS, jQuery and JavaScript.</p>

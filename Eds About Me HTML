@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body style="background-color: #FFE;">
+  <header>About Me | Portfolio</header>
+  <h1>Edmond O'Connell</h1>
+  <h2><section>About Me</h2>
+    <p>I'm Ed O'Connell and currently work for General Assembly's on the Admissions team. I come from a tech background, primariliy on the business development side and looking to expand my skill set in the areas of web development and design. When not working, you can find me on the basketball playing pickup.</p>
+    
+    <footer><a href="https://www.linkedin.com/in/edmondoconnell">LinkedIn </a> | <a href="https://twitter.com/EddyOConnell">Twitter</a> | <a href="https://www.instagram.com/oc_photography/">Instagram</a>
+      
+</body>
+</html>

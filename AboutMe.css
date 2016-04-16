@@ -1,0 +1,18 @@
+	header {
+		color: blue;
+    text-align: center;
+	}
+	section{
+		font-weight:bold;
+    font-style: italic;
+    text-align: center;
+	}
+ .tagged{
+ 		text-align: center;
+ 		border: 5px solid green;
+ 		font-size: 24px;
+	}
+	section-two{
+		font-style: italic;
+		text-align: center;
+	}

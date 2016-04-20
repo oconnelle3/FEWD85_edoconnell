@@ -1,0 +1,48 @@
+#header {
+  background-image: url('https://pixabay.com/static/uploads/photo/2014/12/15/17/17/sailing-boat-569336_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-height: 800 px;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-style: bold;
+  text-align: left;
+  padding: 5%;
+}
+h2 {
+  color: white;
+  margin: 0 auto;
+}
+button  {
+  background: yellow;
+  color: blue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+#section  {
+  background: #f7f7f8;
+}
+#bottom-button  {
+  background: yellow;
+  padding: 10%;
+  margin: 0 auto;
+  height: 10px;
+}
+
+.sign-up-now-box {
+    background-color: #121212;
+    border-radius: 7px;
+    width: 20%;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+img: {
+  float: center;
+}

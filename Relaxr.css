@@ -1,9 +1,13 @@
-#header {
+header {
   background-image: url('https://pixabay.com/static/uploads/photo/2014/12/15/17/17/sailing-boat-569336_960_720.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-height: 800 px;
-  text-align: center;
+   background-repeat: no-repeat;
+   background-size: 800px 600px;
+   text-align: center;
+}
+.Piece-of-mind  {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
 }
 h1 {
   color: white;
@@ -15,6 +19,13 @@ h2 {
   color: white;
   margin: 0 auto;
 }
+h3  {
+  color: blue;
+  font-family: 'Arimo', sans-serif;
+}
+p {
+  padding-right: 50px;
+}
 button  {
   background: yellow;
   color: blue;
@@ -24,6 +35,10 @@ button  {
 }
 #section  {
   background: #f7f7f8;
+}
+#section-two  {
+  background-image: url("testimonial_bg.jpg");
+  background-repeat: no-repeat;
 }
 #bottom-button  {
   background: yellow;

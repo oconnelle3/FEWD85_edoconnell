@@ -1,19 +1,27 @@
 header {
   background-image: url('https://pixabay.com/static/uploads/photo/2014/12/15/17/17/sailing-boat-569336_960_720.jpg');
    background-repeat: no-repeat;
-   background-size: 800px 600px;
+   background-size: 100% 100%;
    text-align: center;
 }
 .Piece-of-mind  {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 26px;
+  padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-left: 30px;
 }
 h1 {
   color: white;
   font-style: bold;
   text-align: left;
-  padding: 5%;
+  font-size: 28px;
+  padding-right: 20px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom; 80px;
 }
 h2 {
   color: white;

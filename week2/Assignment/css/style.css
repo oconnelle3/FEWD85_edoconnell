@@ -51,9 +51,9 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  background-size: cover;  
 }
-
+/*Having some trouble separating the header and body image*/
 
 /******************************************
 /* LAYOUT
@@ -66,19 +66,138 @@ body {
   height: 500px;
 
 }
-
+#section-header {
+  height: 600px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
 header {
-
+  padding-top: 30px;
+  margin: 0 auto;
+}
+.text-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  color: white;
+}
+.second-level {
+  text-align: center;
+  color: white;
+  padding: 120px;
+}
+.body {
+  height: 400px;
+  background-color: #f0efef;
+}
+.post {
+  padding-top: 60px;
+}
+#testimonial  {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+#yellow {
+  background-color: #f9e42e;
+  text-align: center;
+  height: 100px;
 }
 
 footer {
-
+  background-color:#121212;
+  height: 300px;
+  text-align: center;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+h1   {
+  font-size: 28px;
+  float: left;
+  font-family: sans-serif;
+  color: white;
+}
+h2   {
+  font-size: 3em;
+  font-weight: normal;
+}
+h3  {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: #033048;
+}
+p  {
+  font-weight: lighter;
+  font-size: 20px;
+}
+.post ul  {
+  padding-top: 15px;
+}
+.post li  {
+  font-weight: lighter;
+  font-size: 18px;
+  padding-top: 5px;
+}
+#testimonial p {
+  width: 450px;
+  margin: 0 auto;
+  padding-top: 130px;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#Sign-up-Now  {
+  background-color: #033048;
+  padding: 15px 30px 15px 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.GetitNow {
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  background-color: #f9e42e;
+  border: none;
+  color: #033048;
+}
 
+#footer {
+  color: #f9e42e;
+  margin: 0 auto;
+  width: 200px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#footer > h2 {
+  font-weight: bold;
+  padding-bottom: 30px;
+}
 
+#footer > img {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+}
+
+#footer p {
+  margin-top: 30px;
+  font-weight: lighter;
+  font-size: 12px;
+  color: white;
+}
 
 

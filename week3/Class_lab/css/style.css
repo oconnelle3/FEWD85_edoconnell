@@ -59,14 +59,24 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  width: 800px;
   margin: auto;
 }
 
 header {
-
+  background: #033048;
+  color: white;
+  overflow: hidden;
 }
-
+#posts  {
+  width: 500px;
+  display: inline-block;
+  /*Creating more space b/w posts? Possibly padding or heigh?*/
+}
+#sidebar  {
+  float: right;
+  width: 250px;
+}
 footer {
 
 }
@@ -74,7 +84,61 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
+h1    {
+  float: left;
+  font-size: 24px;
+  padding: 25px 0px;
+  font-weight: bold;
+}
+.links {
+  float: right;
+  padding: 25px 0px;
+}
+.links li {
+  display:inline-block;
+  padding: 0px 20px;
+  line-height: 3;
+}
+.links a   {
+  color: orange;
+  text-decoration: none;
+}
+img {
+  width: 500px;
+  margin-bottom: 10px;
+}
+.main {
+margin-top: 50px;
+}
+h2   {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+a    {
+  float: right;
+}
+#posts p:first-letter {
+  text-transform: uppercase;
+  font-size: 50px;
+  /*spacing in font */
+}
+h3   {
+  font-size: 32px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#sidebar li {
+  font-size: 24px;
+  font-weight: light;
+}
+.side-content {
+  margin-bottom: 15px;
+}
+.side-ad  {
+  width: 100px;
+  height: 200px;
+  padding: 10px 20px;
+}
 

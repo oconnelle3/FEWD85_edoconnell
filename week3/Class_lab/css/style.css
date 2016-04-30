@@ -78,7 +78,9 @@ header {
   width: 250px;
 }
 footer {
-
+  background-color:#121212;
+  height: 300px;
+  text-align: center;
 }
 
 /******************************************
@@ -141,4 +143,3 @@ h3   {
   height: 200px;
   padding: 10px 20px;
 }
-

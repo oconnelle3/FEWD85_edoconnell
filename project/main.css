@@ -1,0 +1,36 @@
+
+  /******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container  {
+  width: 800px;
+  margin: auto;
+}
+
+header: {
+  background: yellow;
+  color: black;
+  overflow: hidden;
+}
+container.h1  {
+  color: blue;
+}
+
+
+
+
+
+
+

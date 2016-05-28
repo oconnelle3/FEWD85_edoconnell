@@ -1,0 +1,107 @@
+
+  /******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     text-align: center;
+     font-family: Helvetica, Arial, sans-serif;
+     background-image: url(http://boykinsbasketball.com/wp-content/uploads/2015/10/5451a9bac173c.preview-699.jpg);
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.top  {
+  background-color: blue;
+  text-align: center;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  opacity: .5;
+}
+.top ul li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  float: right;
+  /* possibly float?  */
+}
+ul li a:hover {
+  font-size: 20px;
+  color: orange;
+}
+div section: {
+ display: block;
+}
+div div {
+   height: 50px;
+    width: 250px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+h3   {
+  text-align: center;
+  display: inline-block;
+  
+}
+form {
+    display: inline-block;
+    margin-top: 0em;
+    padding-top: 10px;
+    
+}
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+}
+#submit-btn {
+  display: inline-block;
+}
+#entry {
+  background: #333;
+  text-align: center;
+  width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+  font-size: 24px;
+  display: block;
+}
+#newEntry  {
+  text-align: center;
+  margin: 10px auto;
+  display: block;
+}
+
+.okc  {
+  background-image: url(http://thunder.clutchpoints.com/wp-content/uploads/2015/07/oklahoma-city-thunder-starters.png);
+  background-color: orange;
+}
+.gsw  {
+  background-image: url(http://www.pixelstalk.net/wp-content/uploads/2015/12/Golden-State-Warriors-by-insidesportworld.sportsblog.com_.png);
+  background-color: black;
+}
+
+
+
+
+
+
+

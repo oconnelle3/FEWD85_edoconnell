@@ -1,0 +1,58 @@
+*  {
+      -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  background-color: gray;
+}
+body {
+  background: black;
+    padding: 20px;
+  margin: 0;
+  display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+  background-size: cover;
+}
+nav {
+   list-style: none;
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+  
+}
+nav  {
+    height: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px;
+   text-align: right;
+  /* Why doesn't this work  */
+}
+.top h1 {
+  text-align: center;
+}
+#display {
+    width: 400px;
+    background: rgba(47,55,73,0.5);
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: left;
+    padding: 30px;
+}
+div {
+    display: block;
+}
+#entry {
+  padding: 50px;
+}
+.text  {
+  text-align: center;
+  font-size: 24px;
+}
+input {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: white;
+}

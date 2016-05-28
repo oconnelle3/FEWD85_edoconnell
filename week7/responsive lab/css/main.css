@@ -1,0 +1,109 @@
+html {
+  font-size: 10px;
+}
+
+main.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.mobile-icon {
+  cursor: pointer;
+  display: none;
+  visibility: hidden;
+  position: relative;
+  width: 100px;
+}
+  .mobile-icon span,
+  .mobile-icon span:before,
+  .mobile-icon span:after{
+    background: red;
+    display: block;
+    width: 50px;
+    height: 5px;
+  }
+  .mobile-icon span:before {
+    content: ' ';
+    margin: 0 0 10px 0;
+    position: absolute;
+    top: -5px;
+  }
+  .mobile-icon span:after {
+    content: ' ';
+    margin: 4px 0 0 0;
+    position: absolute;
+    top: 5px;
+  }
+nav {
+  position: relative;
+  }
+
+.main-nav-links li {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid red;
+}
+section {
+  border: 2px solid black;
+  margin: 20px 0 0 0;
+}
+.main-image div{
+  background: transparent
+  url("http://placehold.it/1024x150")
+    no-repeat;
+    display: inline-block;
+    height: 150px
+}
+.article-nav div {
+  background: transparent
+  url("http://placehold.it/1024x150")
+    no-repeat;
+    display: inline-block;
+    height: 100px
+    max-width: 140px;
+  margin: 0 10% 0 3%;
+}
+.article-nav  div:last-child {
+  margin-right: 0;
+
+}
+.ad-space div{
+  background: transparent
+  url("http://placehold.it/1024x150")
+    no-repeat;
+    display: inline-block;
+    height: 150px
+    max-width: 200px;
+  margin: 0 15% 0% 3%;
+}
+.ad-space div:last child {
+  margin: 0 0 0 3%;
+}
+
+@media all and (max-width: 748px) {
+  main.wrapper {
+    min-width: 480px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-icon {
+    display: block;
+    float: right;
+    visibliltiy: visible;
+  }
+  main-nav-links{
+    display: none;
+  }
+  main-nav-links li{
+    display: block;
+    color: blue;
+    cursor: pointer;
+  }
+  main-nav-links li:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+
+

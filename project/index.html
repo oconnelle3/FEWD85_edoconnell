@@ -8,11 +8,11 @@
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Hege Refsnes">
   <title>Ed's Project</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
   <body>
     <header class="top">
-      <h1>Fantasy Sports Page</h1>
+      <h1>Sports Page</h1>
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Sports</a></li>
@@ -20,28 +20,22 @@
           <li><a href="#">FAQ</a></li>
       </ul>
     </header>
-    <img src="images/lol.png"/>
-    <div section="q1">
+    <div id="q1">
+    <div>
       <h3>OKC vs GSW</h3>
-      <form id="entry">
-    <input id="newEntry" autofocus placeholder="Who will win?">
-  </form>
+        </div>
+      <form>
+    <input type="text" id="team-type" autofocus placeholder="Who will win?">
+    <input type="submit" value="Update" id="submit-btn">
+      </form>
     </div>
-      <div section="q2">
-        <h3>Big game for Durant?</h3>
-        <form id="entry">
-    <input id="newEntry" autofocus placeholder="How many will he score?">
-  </form>
-    </div>
-        <div section="q3">
-          <h3>Shootut? Over/under 210</h3>
-          <form id="entry">
-    <input id="newEntry" autofocus placeholder="Total score?">
-  </form>
+     
     </div>
     <footer>
-      <p>check</p>
-      <p>check</p>
+    
       
     </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/main.js"></script>
 </body>
+</html>

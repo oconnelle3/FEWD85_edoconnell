@@ -50,7 +50,29 @@ $(function (){
       }
     })
   }
+  // }
+  //  var findMovie3 = function(e) {
+  //   e.preventDefault();
+  //   e.stopPropagation();
+  //   var movieName = $('#movieName3').val();
+  //   var queryUrl = url + movieName;
   
+  //   $.ajax({
+  //     type: 'GET',
+  //     url: queryUrl,
+  //     dataType: 'jsonp',
+  //     success: function(json) {
+  //       console.log(json);
+  //       movie2 = json.results[0];
+  //       rating3 = movie3.vote_average;
+  //       compare();
+  //     },
+  //     error: function(e){
+  //       console.log(e.message);
+  //     }
+  //   })
+  // }
+  // }
   var compare = function() {
     if (rating1 > rating2)  {
       console.log("movie1 is higher", movie1);
@@ -64,11 +86,16 @@ $(function (){
       $('.movie-poster').html('<img src="https://image.tmdb.org/t/p/w185/' + movie2.poster_path + '"/>');
         
     }
+    // else if {
+    //     console.log("movie3 is higher", movie3);
+    //     $('.movie-poster').html('<img src="https://image.tmdb.org/t/p/w185/' + movie3.poster_path + '"/>');
+    // }
   }
   
 // $('.response').on('submit', findMovie);
 //   var findMovie = function(imdb_id)
   $('#submit-btn').on('click', findMovie);
+});
 //}
   //var poster = $('.movie-poster')
   
@@ -82,10 +109,3 @@ $(function (){
 // $(function (){
 //   var url = 'https://api.themoviedb.org/3/find/tt0266543?external_source=imdb_id&api_key=d428f334cbb71973525f3f8901b0c7cb';
 // }
-});
-
-
-// First use submit to update the URL on with query parameters from users
-// Run ajax and in the succuess run another function call getMovieInfo
-// In getMovieInfo run ajax with imdb ids return that movie info pass that info to another function in success called CompareMovies
-// In compareMovies using dot nation look at each rating and return the highest

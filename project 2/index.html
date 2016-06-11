@@ -7,11 +7,12 @@
   <meta name="description" content="Free Web tutorials">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Hege Refsnes">
+  <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
   <title>Movie Project</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
   <body>
-    <header class="top">
+   <!-- <header class="top">
       <h1>The header part</h1>
       <nav>
         <a href="#">About</a>
@@ -19,7 +20,7 @@
           <a href="#">Search</a>
           <a href="#">FAQ</a>
       </nav>
-            </header>
+            </header>  -->
   <div id="display">
     <form id="entry">
       <div class="text">Movie 1</div>
@@ -27,14 +28,21 @@
       <br></br>
     <br></br>
     <div class="text">Movie 2</div>
-    <input id="movieName"autofocus placeholder="Select Movie" maxlength="30" maxsize="20">
+    <input id="movieName2" autofocus placeholder="Select Movie" maxlength="30" maxsize="20">
     <br></br>
   <br></br>
+<!-- Take out 3 option for now
 <div class="text">Movie 3</div>
 <input id="movieName"autofocus placeholder="Select Movie" maxlength="30" maxsize="20">
 <br></br>
+-->
+<button id="submit-btn">Update</button>
 <br></br>
     </div>
+    <div class="movie-poster">
+      
+    </div>
   </body>
-  <footer>
-  </footer>
+  <!-- <footer>
+  </footer> -->
+<script src="js/main.js"></script>

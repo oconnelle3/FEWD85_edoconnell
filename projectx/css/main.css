@@ -1,0 +1,98 @@
+*  {
+     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  font-size: 20px;
+}
+html { 
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+  background: black;
+    padding: 100px;
+    border-radius: 5px;
+  margin: 0;
+  display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+  /* background-size: cover; */
+  background-image: url("../images/moviebackground.jpeg");
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+object-fit: cover;
+}
+header {
+  padding: 50px;
+}
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
+}
+
+#display  {
+  width: 25%;
+  background: gray;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  opacity: .6;
+}
+#display:hover  {
+  opacity: 1;
+}
+div.text {
+  padding: 5px;
+}
+input  {
+  padding: 5px;
+  font-size: 14px;
+  
+}
+input:hover:{
+  opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+div.movie-poster {
+  margin: auto;
+  margin-left: 250px;
+  position: relative;
+}
+
+div.movie-poster img {
+  position: relative;
+  width: 30%;
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-timing-function: cubic-bezier(.02,.86,.97,.43);
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes slide {
+  from {transform: translateX(0);}
+  to {transform: translateX(400px);} 
+  
+#left {
+  float: left;
+  padding: 200px;
+  margin: 10px;
+  width: 35%;
+}
+#right  {
+  float: right;
+  padding: 150px;
+  margin: 10px;
+  width: 35%;
+}
+
+/* All responsive media queries here */ 
+
+@media (max-width: 768px) {

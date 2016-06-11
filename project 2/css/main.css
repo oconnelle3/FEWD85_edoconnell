@@ -1,17 +1,32 @@
 *  {
-      -moz-box-sizing: border-box;
+     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  background-color: gray;
+  /*background-color: gray; */
+  
+}
+html { 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 body {
   background: black;
-    padding: 20px;
+    padding: 100px;
   margin: 0;
   display: block;
     font-family: 'Source Sans Pro', sans-serif;
-  background-size: cover;
+  /* background-size: cover; */
+  background-image: url("../images/moviebackground.jpeg");
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
+
 nav {
    list-style: none;
   display: inline-block;
@@ -31,7 +46,7 @@ nav  {
   text-align: center;
 }
 #display {
-    width: 400px;
+    width: 25%;
     background: rgba(47,55,73,0.5);
     margin: 0 auto;
     border-radius: 20px;
@@ -43,6 +58,8 @@ div {
 }
 #entry {
   padding: 50px;
+  text-align: center;
+
 }
 .text  {
   text-align: center;
@@ -50,9 +67,24 @@ div {
 }
 input {
   margin: 10px 0;
+  width: 75%;
   padding: 8px;
   font-size: 15px;
   cursor: pointer;
   display: inline-block;
   background-color: white;
 }
+#submit-btn {
+  margin: 20px auto;
+}
+div.movie-poster {
+  display: inline-block;
+
+}
+div img {
+  margin: auto;
+  background-size: cover;
+/*  height: 800px;
+width: 100%; */
+}
+
